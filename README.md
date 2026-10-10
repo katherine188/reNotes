@@ -1,17 +1,19 @@
-# renotes
+# ReNotes
 
-A new Flutter project.
+Aplicación Flutter para Android que permite organizar el trabajo de investigación en proyectos, escribir notas largas dentro de cada proyecto y clasificarlas con etiquetas reutilizables.
 
-## Getting Started
+No usa servidor, base de datos ni almacenamiento local: los datos viven en memoria y se cargan desde datos de prueba al iniciar la app.
 
-This project is a starting point for a Flutter application.
+## Requisitos
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter 3.24 o superior
+- Un emulador Android o un dispositivo físico
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Cómo ejecutarlo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone <URL-DEL-REPOSITORIO>
+cd renotes
+flutter pub get
+flutter run
+```
